@@ -65,7 +65,7 @@ module.exports = {
       filename: 'remoteEntry.js',
       remotes: {},
       exposes: {
-        Body: './src/app',
+        './Body': './src/app',
       },
       shared: ['vue', 'single-spa', 'single-spa-vue'],
     }),

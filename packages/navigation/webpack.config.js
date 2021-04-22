@@ -47,8 +47,8 @@ module.exports = {
       filename: 'remoteEntry.js',
       remotes: {},
       exposes: {
-        Header: './src/Header',
-        Footer: './src/Footer',
+        './Header': './src/Header',
+        './Footer': './src/Footer',
       },
       shared: ['react', 'react-dom', 'single-spa-react'],
     }),
